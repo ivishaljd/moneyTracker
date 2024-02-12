@@ -1,0 +1,56 @@
+.testtt {
+  width: 80%;
+  max-width: 900px;
+  justify-self: center;
+  align-self: center;
+  display: flex;
+  text-align: center;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.testtt button {
+  color: black;
+  border: 1px solid black;
+  font-weight: bold;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.transactioncomponentsconainer {
+  display: flex;
+  flex-direction: column;
+}
+.income {
+  color: green;
+}
+.expense {
+  color: red;
+}
+
+.transactionTablecontainer {
+  display: flex;
+  justify-content: center;
+  overflow-y: scroll;
+  height: 50vh;
+}
+
+.transactionTablecontainer::-webkit-scrollbar {
+  display: none;
+}
+
+.transactionTablecontainer table {
+  width: 80%;
+  max-width: 900px;
+  justify-items: center;
+  text-align: center;
+  border-collapse: collapse;
+}
+.transactionTablecontainer thead {
+  position: sticky;
+  top: 0;
+  background-color: white;
+}
+
+.transactionTablecontainer table tr,
+td {
+  border-bottom: 2px solid black !important;
+}
